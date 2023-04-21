@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
+	"github.com/aikchun/bunrouter"
+	"github.com/aikchun/bunrouter/extra/reqlog"
 )
 
 func main() {

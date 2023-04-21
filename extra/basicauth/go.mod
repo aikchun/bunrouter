@@ -1,7 +1,7 @@
-module github.com/uptrace/bunrouter/extra/basicauth
+module github.com/aikchun/bunrouter/extra/basicauth
 
 go 1.17
 
-replace github.com/uptrace/bunrouter => ../..
+replace github.com/aikchun/bunrouter => ../..
 
-require github.com/uptrace/bunrouter v1.0.20
+require github.com/aikchun/bunrouter v1.0.20

@@ -1,14 +1,14 @@
-module github.com/uptrace/bunrouter/example/file-server
+module github.com/aikchun/bunrouter/example/file-server
 
 go 1.17
 
-replace github.com/uptrace/bunrouter => ../..
+replace github.com/aikchun/bunrouter => ../..
 
-replace github.com/uptrace/bunrouter/extra/reqlog => ../../extra/reqlog
+replace github.com/aikchun/bunrouter/extra/reqlog => ../../extra/reqlog
 
 require (
-	github.com/uptrace/bunrouter v1.0.20
-	github.com/uptrace/bunrouter/extra/reqlog v1.0.20
+	github.com/aikchun/bunrouter v1.0.20
+	github.com/aikchun/bunrouter/extra/reqlog v1.0.20
 )
 
 require (

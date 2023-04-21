@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
+	"github.com/aikchun/bunrouter"
+	"github.com/aikchun/bunrouter/extra/reqlog"
 )
 
 //go:embed files

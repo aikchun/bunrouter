@@ -12,10 +12,10 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/aikchun/bunrouter"
+	"github.com/aikchun/bunrouter/extra/reqlog"
 	"github.com/klauspost/compress/gzhttp"
 	"github.com/rs/cors"
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
 )
 
 //go:embed files

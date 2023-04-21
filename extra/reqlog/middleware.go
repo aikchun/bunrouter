@@ -11,7 +11,7 @@ import (
 	"github.com/felixge/httpsnoop"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/uptrace/bunrouter"
+	"github.com/aikchun/bunrouter"
 )
 
 type middleware struct {
@@ -37,9 +37,9 @@ func WithVerbose(on bool) Option {
 
 // WithEnv configures the middleware using the environment variable value.
 // For example, WithEnv("BUNDEBUG"):
-//    - BUNDEBUG=0 - disables the middleware.
-//    - BUNDEBUG=1 - enables the middleware.
-//    - BUNDEBUG=2 - enables the middleware and verbose mode.
+//   - BUNDEBUG=0 - disables the middleware.
+//   - BUNDEBUG=1 - enables the middleware.
+//   - BUNDEBUG=2 - enables the middleware and verbose mode.
 func FromEnv(keys ...string) Option {
 	if len(keys) == 0 {
 		keys = []string{"BUNDEBUG"}
